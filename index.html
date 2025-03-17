@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chicken Nugget Coin</title>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #f39c12;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 60%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        table td {
+            padding: 15px;
+            text-align: center;
+        }
+
+        table button {
+            background-color: #f39c12;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        table button:hover {
+            background-color: #e67e22;
+        }
+
+        input {
+            padding: 10px;
+            font-size: 1rem;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            width: 100px;
+            text-align: center;
+        }
+
+        input:focus {
+            outline: none;
+            border-color: #f39c12;
+        }
+
+        .coin-image {
+            margin-top: 30px;
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .description {
+            font-size: 1.2rem;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Chicken Nugget Coin</h1>
+        <p class="description">Enter the amount and recipient to send Chicken Nugget Coin!</p>
+
+        <table>
+            <tr>
+                <td><button>Amount:</button></td>
+                <td><input name="amount" value="12" /></td>
+            </tr>
+            <tr>
+                <td><button>To:</button></td>
+                <td><input name="to" value="Hypothetical Fellow" /></td>
+            </tr>
+        </table>
+
+        <img src="https://static.wikia.nocookie.net/herofanon/images/b/ba/A64023B8-2C84-40F3-821F-31B27A6228AC.png/revision/latest/thumbnail/width/360/height/360?cb=20240302161220" alt="Chicken Nugget Coin" class="coin-image" />
+    </div>
+</body>
+</html>
